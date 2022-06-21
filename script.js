@@ -1,7 +1,2 @@
-let name = "Ilya";
-
-alert( `hello ${1}` );
-
-alert( `hello ${"name"}` );
-
-alert( `hello ${name}` );
+let name = prompt('Введите ваше имя :', '');
+alert(name);
