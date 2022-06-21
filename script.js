@@ -1,9 +1,7 @@
-let num = prompt('Введите число:', '');
+let age = prompt('Введите возраст:', '');
 
-if (num > 0) {
-	alert('1');
-} else if(num < 0){
-	alert('-1');
+if (age >= 14 && age<=90) {
+	alert(true);
 } else {
-	alert('0');
+	alert(false);
 }
