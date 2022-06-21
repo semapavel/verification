@@ -1,2 +1,7 @@
-const BIRTHDAY = '18.04.1982';
-const age = someCode(BIRTHDAY);
+let name = "Ilya";
+
+alert( `hello ${1}` );
+
+alert( `hello ${"name"}` );
+
+alert( `hello ${name}` );
