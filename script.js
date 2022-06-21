@@ -1,4 +1,7 @@
-let a = 2;
-let x = 1 + (a *= 2);
-alert(a); 
-alert(x);
+let name = prompt('Какое «официальное» название JavaScript?', '');
+
+if (name == 'ECMAScript') {
+  alert('Верно!');
+} else {
+  alert('Не знаете? ECMAScript!');
+}
